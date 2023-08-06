@@ -6,7 +6,7 @@
   console.log(queue);
   onMount(() => {
     tl = gsap.timeline({
-      delay: .2,
+      delay: 0.2,
     });
     tl.to(".jyoti", {
       width: 600,
@@ -30,7 +30,7 @@
       {#if queue}
         <img
           alt="hey"
-          src={queue.getResult("shin_chan").src}
+          src={"https://ik.imagekit.io/7r3lksjyp/shin-chan-dance.gif?updatedAt=1691344971161"}
           class="rounded-full"
         />
       {/if}
