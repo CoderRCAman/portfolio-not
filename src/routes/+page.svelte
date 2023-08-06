@@ -103,7 +103,7 @@
   {:else}
     <h1
       class="text-center {reveal &&
-        'opacity-0'} transition-all duration-500 font-Titillium_Web text-4xl mt-10"
+        'opacity-0'} transition-all duration-500 font-Titillium_Web text-4xl pt-10"
     >
       WELCOME TO THE HORNY PORTFOLIO
     </h1>
