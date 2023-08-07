@@ -16,7 +16,6 @@
     inertia: true,
     modifiers: [
       interact.modifiers.restrictRect({
-        // restriction: "parent",
         endOnly: true,
       }),
     ],
@@ -66,7 +65,7 @@
   class="drag-drop absolute {hide ? 'hidden' : 'block'} {isDragging[key]
     ? 'border-green-500'
     : 'border-gray-800'} shadow-lg border-[1px] px-5 py-2 rounded-md font-tektur select-none cursor-grab"
-  style="top: {position.x}%; left:{position.y}%"
+  style="top: {position.x}%; left:{position.y}%;touch-action:none;"
   role="button"
   tabindex="-1"
 >
